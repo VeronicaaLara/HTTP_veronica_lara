@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ejercicio_HTTP</string>
+    <string name="get_button_text">GET ALL POSTS</string>
+    <string name="post_id_tv">Post ID:</string>
+    <string name="getParam_button_text">GET POST BY ID</string>
+    <string name="newPost_title_text">New Title:</string>
+    <string name="newPost_body_text">New Body:</string>
+    <string name="newPost_userId_text">New User ID:</string>
+    <string name="post_button_text">SEND DATA</string>
+    <string name="post_id_field_text">Id:</string>
+    <string name="user_id_field_text">User id:</string>
+    <string name="post_title_field_text">Title:</string>
+    <string name="post_body_field_text">Body:</string>
+    <string name="postActivity_button_text">POST</string>
+    <string name="err_msg_empty_post">Data could not be received succesfully</string>
+</resources>
