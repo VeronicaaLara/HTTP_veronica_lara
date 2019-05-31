@@ -31,8 +31,8 @@ public class MainActivity extends AppCompatActivity implements  AsyncResponse, V
 
     private void init() {
         rview = findViewById(R.id.rv);
-        LinearLayoutManager llm = new LinearLayoutManager(this);
-        rview.setLayoutManager(llm);
+        LinearLayoutManager linearM = new LinearLayoutManager(this);
+        rview.setLayoutManager(linearM);
         rview.setHasFixedSize(true);
         posts = new Posts();
         adapter = new RVAdapter(MainActivity.this, posts.getPosts(), new CustomItemClick() {
